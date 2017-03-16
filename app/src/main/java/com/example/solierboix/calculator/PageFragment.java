@@ -18,9 +18,10 @@ public class PageFragment extends Fragment{
     private int mPage;
 
     public static PageFragment newIstance(int page){
+
+        PageFragment fragment = new PageFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_PAGE, page);
-        PageFragment fragment = new PageFragment();
         fragment.setArguments(args);
         return fragment;
 
@@ -29,6 +30,7 @@ public class PageFragment extends Fragment{
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mPage = getArguments().getInt(ARG_PAGE);
     }
 
     @Nullable

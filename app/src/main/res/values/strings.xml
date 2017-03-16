@@ -1,3 +1,17 @@
 <resources>
+
+    <string-array name="players_array">
+        <item>Messi</item>
+        <item>Ronaldo</item>
+        <item>Zidane</item>
+        <item>Figo</item>
+        <item>Lewandowski</item>
+    </string-array>
+
+
     <string name="app_name">Calculator</string>
+
+    <string name="which_fragment">Hello</string>
 </resources>
+
+
