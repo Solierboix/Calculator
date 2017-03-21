@@ -5,6 +5,10 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import com.example.solierboix.calculator.fragment.TabFragment1;
+import com.example.solierboix.calculator.fragment.TabFragment2;
+import com.example.solierboix.calculator.fragment.TabFragment3;
+
 /**
  * Created by Solierboix on 14.03.2017.
  */
